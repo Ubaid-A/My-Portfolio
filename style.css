@@ -1,0 +1,292 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+html{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+/* navigation bar */
+.container .logo{
+  cursor: pointer;
+  color: #a70960;
+  
+}
+.container{
+    max-width: 100%;
+    height: 100vh;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 180px;
+}
+
+.link ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  list-style-type: none;
+}
+.link ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  transition: 3sec;
+}
+.link ul li a:hover{
+  color: #0849ee;
+}
+.sticky{
+  position: fixed;
+  background-color: #eaebf1;
+  width: 74%;
+  
+}
+.sticky:hover{
+  background-color: #eaebf1;
+}
+
+/* home section  */
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.main .home-content{
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.main .home-content h2{
+  color: mediumblue;
+}
+.main .home-content h5{
+  color: #a70960;
+}
+.main .home-content p img{
+  cursor: pointer;
+}
+
+/* social icon button  */
+.social-icon .bxl-linkedin-square{
+  color: black;
+  font-size: 40px;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.social-icon .bxl-linkedin-square:hover{
+  color: rgb(20, 23, 223);
+}
+.social-icon .bxl-github{
+  color: rgb(49, 47, 47);
+  font-size: 40px;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.social-icon .bxl-github:hover{
+  color: rgb(5, 5, 8);
+}
+
+/* about sectionn */
+.container2{
+  max-width: 75%;
+  height: 100vh;
+  margin-left: 150px;
+}
+.about-containt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  gap: 2rem;
+
+}
+.about-containt h1{
+  font-size: 45px;
+  color: #a70960;
+}
+.about-containt p{
+  font-size: 17px;
+  text-align: justify;
+  opacity: 0.750;
+}
+
+/* skill section  */
+.container3{
+  max-width: 100%;
+  height: 100vh;
+
+}
+
+.container3 .skill-content .h1-p1{
+  text-align: center;
+  font-size: 18px;
+  padding: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.container3 .skills{
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+.skills .skill-1{
+  border: 1px solid black;
+  background-color: rgb(215, 236, 250);
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+  height: 180px;
+  width: 80%;
+  margin: 5px;
+  cursor: pointer;
+  transition: 3sec;
+}
+.skills .skill-1:hover{
+  border: 2.6px solid #0905e9;
+}
+.skills .skill-1 p{
+  opacity: 0.900;
+}
+
+.skills .skill-2{
+  border: 1px solid black;
+  background-color: rgb(215, 236, 250);
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+  height: 180px;
+  width: 80%;
+  margin: 5px;
+  cursor: pointer;
+  transition: 3sec;
+}
+.skills .skill-2:hover{
+  border: 2.6px solid #f004a9;
+}
+.skills .skill-2 p{
+  opacity: 0.900;
+}
+
+.skills .skill-3{
+  border: 1px solid black;
+  background-color: rgb(215, 236, 250);
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+  height: 180px;
+  width: 80%;
+  margin: 5px;
+  cursor: pointer;
+  transition: 3sec;
+}
+.skills .skill-3:hover{
+  border: 2.6px solid #0905e9;
+}
+.skills .skill-3 p{
+  opacity: 0.900;
+}
+
+
+/* contact Section */
+#contact .contact {
+	flex-direction: column;
+	max-width: 2000px;
+	margin: 0 auto;
+	width: 90%;
+}
+#contact .contact-items {
+	
+	width: 100%;
+  display: flex;
+}
+.contact .abouth1{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+#contact .contact-item {
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+	transition: 0.3s ease box-shadow;
+}
+#contact .contact-item:hover {
+	box-shadow: 0px 0px 5px 0 #0000002c;
+}
+#contact .icon {
+	width: 70px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+#contact .contact-info h1 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+#contact .contact-info h2 {
+	font-size: 1.3rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+
+
+/* footer/ */
+footer{
+  background-color: #0b0e29;
+  padding: 15px;
+  color: aliceblue;
+}
+.f-header{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer2 ul{
+  list-style-type: none;
+  
+
+}
+.footer2 ul li{
+  padding: 3px;
+}
+.footer2 ul li a{
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+.footer2 ul li a:hover{
+  color: brown;
+}
+.footer3 a{
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+.footer3 a:hover{
+  color: brown;
+}
